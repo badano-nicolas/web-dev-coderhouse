@@ -32,6 +32,23 @@ body {
     margin: 0 auto;
 }
 
+.table {
+    padding-bottom: 3rem;
+}
+
+.table-container table {
+    width: 100%;
+}
+
+.table-container table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table-container th, td {
+    padding: 10px;
+}
+
 h1 {
     font-size: 2rem;
     line-height: 1.3em;
