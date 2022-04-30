@@ -23,7 +23,7 @@ body {
 }
 
 .main {
-    padding-top: 12rem;
+    padding-top: 9rem;
 }
 
 .container {
@@ -48,9 +48,8 @@ p {
     flex-wrap: wrap;
 }
 
-.logo {
-    letter-spacing: 5px;
-    font-size: 1.3em;
+.logo img {
+    width: 250px;
 }
 
 .navigation ul {
