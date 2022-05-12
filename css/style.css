@@ -32,6 +32,19 @@ body {
     margin: 0 auto;
 }
 
+.container .location {
+    min-height: 900px;
+    background-image: url("../img/location.png")
+}
+
+.container .location p {
+    text-align: center;
+    padding-top: 3rem;
+    color: #4a4a4a;
+    font-weight: bold;
+    
+}
+
 .table {
     padding-bottom: 3rem;
 }
