@@ -1,5 +1,5 @@
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   color: #333;
   font-size: 1.2rem;
   line-height: 1.4em;
@@ -194,6 +194,8 @@ p {
   font-size: 15px;
 }
 
+/* **************************** Wine container **************************** */
+
 .wine-container h3 {
   display: block;
   padding: 0.5rem 1rem;
@@ -204,6 +206,76 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* **************************** Card with image **************************** */
+
+.card-with-image {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+}
+
+.card-with-image:hover img {
+  transform: scale(1.25);
+}
+
+.card-with-image:hover .card-info {
+  bottom: 0;
+}
+
+.card-with-image h3 {
+  position: absolute;
+  top: 2rem;
+  margin: 0;
+  padding: 0;
+  color: white;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.card-with-image img {
+  height: 100%;
+  transition: 0.25s;
+  max-height: 350px;
+}
+
+.card-with-image .card-info {
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(black, 0.4);
+  color: white;
+  line-height: 1;
+  transition: 0.25s;
+}
+
+.card-with-image .card-info h4 {
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.card-with-image .card-info ul li {
+  list-style: square;
+}
+
+.card-with-image .card-info ul li {
+  font-size: 16px;
+}
+
+.card-with-image:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 @media only screen and (max-width: 767px) {
