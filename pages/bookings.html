@@ -41,32 +41,48 @@
             aut, eligendi laudantium iure, consequatur velit earum perferendis accusamus. Vero excepturi rerum velit
             tempora soluta unde libero.</p>
         <form action="/action_page.php">
-            <label for="fname">Nombre:</label>
-            <input type="text" id="fname" name="fname">
-            <br><br>
+            <div class="mb-3 row">
+                <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="inputName">
+                </div>
+            </div>
 
-            <label for="lname">Apellido:</label>
-            <input type="text" id="lname" name="lname">
-            <br><br>
+            <div class="mb-3 row">
+                <label for="inputSurname" class="col-sm-2 col-form-label">Apellido</label>
+                <div class="col-sm-4">
+                    <input type="password" class="form-control" id="inputSurname">
+                </div>
+            </div>
 
-            <label for="phone">Teléfono:</label>
-            <input type="tel" id="phone" name="phone">
-            <br><br>
+            <div class="mb-3 row">
+                <label for="inputPhone" class="col-sm-2 col-form-label">Teléfono</label>
+                <div class="col-sm-4">
+                    <input type="tel" class="form-control" id="inputPhone">
+                </div>
+            </div>
 
-            <label for="day">Día a reservar:</label>
-            <select name="days" id="day">
-                <option value="1">Viernes: 20:00 - 22:00</option>
-                <option value="2">Viernes: 22:00 - 00:00</option>
-                <option value="3">Sabado: 12:00 - 14:00</option>
-                <option value="4">Sabado: 14:00 - 16:00</option>
-                <option value="5">Sabado: 20:00 - 22:00</option>
-                <option value="6">Sabado: 22:00 - 00:00</option>
-                <option value="7">Domingo: 12:00 - 14:00</option>
-                <option value="8">Domingo: 14:00 - 16:00</option>
-            </select>
-            <br><br>
 
-            <input type="submit" value="Enviar">
+            <div class="mb-3 row">
+                <label for="day" class="col-sm-2 col-form-label">Reserva</label>
+                <div class="col-sm-4">
+                    <select class="form-select " aria-label="Default select example" name="days" id="day">
+                        <option selected>Seleccione día y horario</option>
+                        <option value="1">Viernes: 20:00 - 22:00</option>
+                        <option value="2">Viernes: 22:00 - 00:00</option>
+                        <option value="3">Sabado: 12:00 - 14:00</option>
+                        <option value="4">Sabado: 14:00 - 16:00</option>
+                        <option value="5">Sabado: 20:00 - 22:00</option>
+                        <option value="6">Sabado: 22:00 - 00:00</option>
+                        <option value="7">Domingo: 12:00 - 14:00</option>
+                        <option value="8">Domingo: 14:00 - 16:00</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+            <button type="button" class="btn btn-primary col-sm-6">Reservar</button>
         </form>
     </main>
 
