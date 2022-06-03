@@ -1,0 +1,41 @@
+.header {
+  /* checkear  */
+  background: $background;
+  color: $white;
+  padding: 1rem 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  .logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .logo img {
+      width: 250px;
+    }
+
+    .navigation ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          padding: 0.5rem 1rem;
+          transition: all 0.4s linear;
+          border-radius: 5px;
+          text-decoration: none;
+          color: $white;
+        }
+        a.active,
+        a:hover {
+          background-color: $hover-background;
+        }
+      }
+    }
+  }
+}
