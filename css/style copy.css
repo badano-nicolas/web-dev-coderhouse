@@ -1,42 +1,3 @@
-/* ************************** Container ************************** */
-
-.container .location {
-  min-height: 900px;
-  background-image: url("../img/location.png");
-}
-
-.container .location p {
-  text-align: center;
-  padding-top: 3rem;
-  color: #4a4a4a;
-  font-weight: bold;
-}
-
-/* **************************** Tables **************************** */
-.table {
-  padding-bottom: 3rem;
-}
-
-.table-container table {
-  width: 100%;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border: 1px solid black;
-}
-
-.table-container th,
-td {
-  padding: 10px;
-}
-/* *************************************************************** */
-
-
 .grid-3-container {
   width: 100%;
   max-width: 1200px;
@@ -45,20 +6,6 @@ td {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 1rem 0;
-}
-
-/* **************************** Wine container **************************** */
-
-.wine-container h3 {
-  display: block;
-  padding: 0.5rem 1rem;
-}
-
-.wine-container table,
-.wine-container h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* **************************** Card with image **************************** */

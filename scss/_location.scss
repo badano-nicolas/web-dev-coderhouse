@@ -1,0 +1,10 @@
+.main-container .location {
+  min-height: 600px;
+  background-image: url("../img/location.png");
+  p {
+    text-align: center;
+    padding-top: 4rem;
+    color: $hover-background;
+    font-weight: bold;
+  }
+}
