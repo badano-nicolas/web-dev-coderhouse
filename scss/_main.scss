@@ -9,10 +9,12 @@
     font-size: 2rem;
     line-height: 1.3em;
   }
+
+  
 }
 
-@media only screen and (max-width: 767px) {
-  .footer .flex-row {
+@media only screen and (max-width: 994px) {
+  .main-container .flex-row {
     flex-direction: column !important;
   }
 }

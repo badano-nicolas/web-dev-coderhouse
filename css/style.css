@@ -8376,8 +8376,8 @@ textarea.form-control-lg {
     font-size: 2rem;
     line-height: 1.3em; }
 
-@media only screen and (max-width: 767px) {
-  .footer .flex-row {
+@media only screen and (max-width: 994px) {
+  .main-container .flex-row {
     flex-direction: column !important; } }
 
 .main-container .location {
@@ -8388,6 +8388,60 @@ textarea.form-control-lg {
     padding-top: 4rem;
     color: #4a4a4a;
     font-weight: bold; }
+
+.card-with-image {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  width: 300px;
+  height: 350px;
+  color: #ffffff; }
+  .card-with-image h3, .card-with-image .h3 {
+    position: absolute;
+    top: 2rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    padding: 10px; }
+  .card-with-image img {
+    height: 100%;
+    transition: 0.25s;
+    max-height: 350px; }
+  .card-with-image .card-info {
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    line-height: 1;
+    transition: 0.25s; }
+    .card-with-image .card-info h4, .card-with-image .card-info .h4 {
+      padding: 0;
+      margin: 0 0 20px; }
+    .card-with-image .card-info ul li {
+      list-style: square;
+      font-size: 16px; }
+
+.card-with-image:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .card-with-image:hover img {
+    transform: scale(1.25); }
+  .card-with-image:hover .card-info {
+    bottom: 0; }
+
+@media only screen and (max-width: 1204px) {
+  .cellar-container .flex-row {
+    flex-direction: column !important;
+    margin: 1rem 0; }
+    .cellar-container .flex-row .card-with-image {
+      margin: 1rem; } }
 
 .footer {
   width: 100%;
@@ -8423,6 +8477,10 @@ textarea.form-control-lg {
     text-align: center; }
     .footer .footer-container-2 small, .footer .footer-container-2 .small {
       font-size: 15px; }
+
+@media only screen and (max-width: 767px) {
+  .footer .flex-row {
+    flex-direction: column !important; } }
 
 body {
   font-family: "Roboto", sans-serif;
