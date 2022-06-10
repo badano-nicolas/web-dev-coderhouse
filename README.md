@@ -1,6 +1,7 @@
 # La Garza Lola web app
 
 Written as project for CoderHouse.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -17,7 +18,7 @@ cd web-dev-coderhouse
 2. Install dependencies, for server and client.
 
 ```
-npm install 
+npm install
 ```
 
 ### Build CSS from SCSS
@@ -28,5 +29,6 @@ npm install
 npm run build-css
 ```
 
-###
+### License
 
+[MIT](https://choosealicense.com/licenses/mit/)
