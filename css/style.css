@@ -29,12 +29,13 @@
   .main-container .flex-row {
     flex-direction: column !important; } }
 
-.main-container .location a {
+.main-container a .location {
   min-height: 600px;
   background-image: url("../img/location.jpg");
   max-width: 700px;
-  max-height: 500px; }
-  .main-container .location a p {
+  max-height: 500px;
+  text-decoration: inherit; }
+  .main-container a .location p {
     text-align: center;
     padding-top: 4rem;
     color: #4a4a4a;
@@ -141,3 +142,6 @@ body {
   font-size: 1.2rem;
   line-height: 1.4em;
   margin: 0; }
+
+.nav-link {
+  margin-top: 5px !important; }
