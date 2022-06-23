@@ -1,5 +1,5 @@
 .main-container {
-  a {
+  a .location {
     min-height: 600px;
     background-image: url("../img/location.jpg");
     max-width: 700px;
@@ -10,6 +10,7 @@
       padding-top: 4rem;
       color: $hover-background;
       font-weight: bold;
+      text-decoration: inherit;
     }
   }
 }

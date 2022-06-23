@@ -39,7 +39,8 @@
     text-align: center;
     padding-top: 4rem;
     color: #4a4a4a;
-    font-weight: bold; }
+    font-weight: bold;
+    text-decoration: inherit; }
 
 .card-with-image {
   position: relative;
